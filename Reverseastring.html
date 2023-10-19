@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function reverse(string,substr)
+        {
+            return string.split(substr).reverse().join(substr)
+        }
+        let string = "This is a sunny day";
+
+       let string1=reverse(string,"")
+
+       let string2=reverse(string1," ")
+
+       document.writeln(string2)
+//         
+        //  const points = [40, 100, 1, 5, 25, 10];
+        //  points.sort(function(a, b){return b-a});
+        //  document.writeln(points);
+        </script>
+</body>
+</html>
